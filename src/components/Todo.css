@@ -1,0 +1,36 @@
+
+.button {
+ background: lightblue;
+ border: red solid 1px;
+ border-radius: 3px;
+ margin: 2%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    border: red solid 2px;
+    background: grey;
+  
+
+}
+
+
+.task {
+    margin: 10%;
+    background: lightblue;
+    border: red solid 2px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task.completed {
+    background-color: lightblue;
+    text-decoration: line-through;
+}
